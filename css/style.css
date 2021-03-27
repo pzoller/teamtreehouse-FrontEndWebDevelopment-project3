@@ -132,7 +132,6 @@ input:placeholder-shown {
 
 main>div {
     text-align: center;
-    /* margin-top: 1rem; */
     border-top:  aqua solid 1rem;
     margin-bottom: .2em;
     border-bottom: black solid .2em;
