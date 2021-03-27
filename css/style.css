@@ -33,15 +33,6 @@ p {
     font-weight: lighter;
 }
 
-textarea {
-    resize: none;
-    height: 6em;
-}
-
-select, input[type="submit"], textarea {
-    border: none;
-}
-
 fieldset {
     border-top-style: solid;
     border-color: black;
@@ -56,6 +47,15 @@ legend {
     font-weight: bolder;
     width: 100%;
     padding: 1.2em 0;
+}
+
+textarea {
+    resize: none;
+    height: 6em;
+}
+
+select, input[type="submit"], textarea {
+    border: none;
 }
 
 label, input[type="submit"] {
@@ -81,15 +81,13 @@ select {
     padding-bottom: 1em;
     font-size: 1em;
     height: 3em;
+    margin-bottom: 1em;
+    padding: 0.5em;
 }
 
 select:checked {
     font-size: 2em;
     padding-bottom: 0;
-}
-
-select {
-    margin-bottom: 1em;
 }
 
 input[type="checkbox"] {
@@ -117,6 +115,7 @@ input[type="tel"] {
 }
 
 option {
+    padding: 1em;
     font-size: 1em;
 }
 
@@ -173,7 +172,7 @@ input:placeholder-shown {
     label[for="topics"] {
         margin: 1.5em auto;
     }
-    textarea{
+    textarea {
         height: 7em;
     }
     input[type="submit"] {
